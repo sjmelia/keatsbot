@@ -9,12 +9,11 @@ class Markov(object):
 		self.words = self.file_to_words()
 		self.word_size = len(self.words)
 		self.database()
-		
 	
 	def file_to_words(self):
 		self.open_file.seek(0)
 		data = self.open_file.read()
-		words = data.split
+		words = data.split()
 		return words
 	
 	def triples(self):
