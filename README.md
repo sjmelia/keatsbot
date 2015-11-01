@@ -1,5 +1,5 @@
 # keatsbot
-A light-winged Dryad of the trees; tweeting
+A light-winged Dryad of the trees; tweeting. All explained at http://blog.arrayofbytes.co.uk/?p=127
 
 ## Prerequisites
 - Python 2
