@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import markov
 import random
 from twitter import *
