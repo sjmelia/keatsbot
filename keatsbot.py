@@ -6,7 +6,7 @@ from twitter import *
 
 def main():
     settings = [line.rstrip('\n') for line in file('settings.txt')]
-    source = file('all.txt')
+    source = file('corpus/all.txt')
     generator = markov.Markov(source)
     length = random.randint(20,140)
     output = generator.generate_markov_text(length)
